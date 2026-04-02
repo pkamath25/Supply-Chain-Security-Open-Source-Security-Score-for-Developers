@@ -156,8 +156,8 @@ deeprisk install <package-name> [npm flags]
 **Examples:**
 
 ```bash
-deeprisk install express           # ✅ LOW risk — installs normally
-deeprisk install colors            # ⚠️  HIGH risk — shows warning + alternatives
+deeprisk install express          
+deeprisk install colors          
 deeprisk install lodash --save-dev # passes npm flags through
 ```
 
